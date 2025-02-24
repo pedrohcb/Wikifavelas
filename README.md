@@ -18,3 +18,17 @@ Este repositório se destina a manter as configurações e extensões dos projet
 12. Execute a atualização do banco: `php maintenance/update.php --quick`
 13. Se tiver algum patch a aplicar, execute: `cd volumes/mediawiki;git apply ../src/patch-01.diff`
 14. Copie a pasta `images` do seu projeto para `volumes/mediawiki/`.
+
+## Editar topo
+
+https://www.mediawiki.org/wiki/Manual:Interface/Sitenotice
+
+
+## Menu
+
+https://www.mediawiki.org/wiki/Manual:Interface/Sidebar
+
+
+## CSS
+https://www.mediawiki.org/wiki/Manual:CSS
+
