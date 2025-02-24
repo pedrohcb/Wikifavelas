@@ -7,7 +7,7 @@ Este repositório se destina a manter as configurações e extensões dos projet
 1. Clone o projeto [mediawiki-development](https://github.com/FiocruzLivre/mediawiki-development.git): `git clone https://github.com/FiocruzLivre/mediawiki-development.git`
 2. Acesse a pasta do projeto: `cd wediawiki-development`
 3. Crie uma pasta chamada _volumes_: `mkdir volumes`
-4. Clone o projeto _mediawiki-settings_ dentro da pasta _volumes_ em uma pasta chamada _src_: `git clone https://github.com/FiocruzLivre/mediawiki-settings.git volumes/src` e faça o `chekcout` para a branch relativa ao seu projeto
+4. Clone o projeto _mediawiki-settings_ dentro da pasta _volumes_ em uma pasta chamada _src_: `git clone https://github.com/FiocruzLivre/mediawiki-settings.git volumes/src` e faça o `checkout` para a branch relativa ao seu projeto
 5. Crie o subdiretório _/mysql/dump_ dentro da pasta _volumes_: `mkdir -p volumes/mysql/dump`
 6. Coloque o dump do seu projeto na pasta `volumes/mysql/dump`
 7. É necessário que exista um arquivo `.env` na raíz do projeto mediawiki-development com as variáveis utilizadas no _LocalSettings.php_.
