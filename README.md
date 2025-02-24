@@ -31,4 +31,3 @@ https://www.mediawiki.org/wiki/Manual:Interface/Sidebar
 
 ## CSS
 https://www.mediawiki.org/wiki/Manual:CSS
-
