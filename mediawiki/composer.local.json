@@ -14,32 +14,32 @@
         }
     },
     "require": {
-        "mediawiki/bootstrap": "~4.0",
-        "mediawiki/chameleon-skin": "~4",
+        "mediawiki/bootstrap": "~5.0",
+        "mediawiki/chameleon-skin": "~5.0",
         "mediawiki/bootstrap-components": "^5.0",
         "starcitizenwiki/embedvideo": "^3.4",
-        "wolfgangfahl/pdfembed": "*",
-        "mediawiki/disambiguator": "^1.4",
+        "wolfgangfahl/pdfembed": "3.0.1",
+        "mediawiki/disambiguator": "^1.43",
         "mediawiki/hit-counters": "^0.3.4",
-        "mediawiki/popups": "^1.41",
+        "mediawiki/popups": "^1.43",
         "octfx/wiki-seo": "^2.7",
         "sigbertklinke/iframe": "^0.11.0",
         "mediawiki/font-awesome": "^2.0",
         "wikimedia/credits-source": "^0.4.0",
-        "wikimedia/article-ratings": "^2.4",
+        "wikimedia/article-ratings": "^2.6",
         "mediawiki/user-export": "^2.1",
-        "mediawiki/intersection": "^1.7",
-        "thewatcher/interactive-timeline": "^1.6",
-        "mediawiki/timeline": "^1.7",
-        "mediawiki/kartographer": "^1.41",
-        "mediawiki/json-config": "^1.41",
-        "mediawiki/random-pages": "^0.6.0",
-        "mediawiki/random-selection": "^2.3",
-        "mediawiki/wiki-category-tag-cloud": "^1.4",
-        "mediawiki/geo-data": "^1.41",
+        "mediawiki/intersection": "^1.43",
+        "thewatcher/interactive-timeline": "^1.9",
+        "mediawiki/timeline": "^1.43",
+        "mediawiki/kartographer": "^1.43",
+        "mediawiki/json-config": "^1.1.1",
+        "mediawiki/random-pages": "^0.5.0",
+        "mediawiki/random-selection": "^3.0.0",
+        "mediawiki/wiki-category-tag-cloud": "^1.3.3",
+        "mediawiki/geo-data": "^1.43",
         "mediawiki/head-script": "^1.1",
-        "mediawiki/page-forms": "^5.7",
-        "mediawiki/labeled-section-transclusion": "^1.41",
+        "mediawiki/page-forms": "^5.9",
+        "mediawiki/labeled-section-transclusion": "^1.43",
         "mediawiki/vector-skin": "^1.32",
         "mediawiki/category-tree": "^1.41",
         "mediawiki/cite": "^1.41",
@@ -58,11 +58,11 @@
             "package": {
                 "name": "mediawiki/disambiguator",
                 "type": "mediawiki-extension",
-                "version": "1.4.0",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-Disambiguator",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -71,11 +71,11 @@
             "package": {
                 "name": "mediawiki/popups",
                 "type": "mediawiki-extension",
-                "version": "1.41.0",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-Popups",
-                    "reference": "wmf/1.41.0-wmf.30"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -110,11 +110,11 @@
             "package": {
                 "name": "wikimedia/article-ratings",
                 "type": "mediawiki-extension",
-                "version": "2.4.2",
+                "version": "2.6",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-ArticleRatings",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -127,7 +127,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-UserExport",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -136,11 +136,11 @@
             "package": {
                 "name": "mediawiki/intersection",
                 "type": "mediawiki-extension",
-                "version": "1.7.0",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-intersection",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -149,11 +149,11 @@
             "package": {
                 "name": "mediawiki/timeline",
                 "type": "mediawiki-extension",
-                "version": "1.7.0",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-timeline",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -162,7 +162,7 @@
             "package": {
                 "name": "thewatcher/interactive-timeline",
                 "type": "mediawiki-extension",
-                "version": "1.6.0",
+                "version": "1.9",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/TheWatcher/InteractiveTimeline",
@@ -175,11 +175,11 @@
             "package": {
                 "name": "mediawiki/kartographer",
                 "type": "mediawiki-extension",
-                "version": "1.41",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-Kartographer",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -188,11 +188,11 @@
             "package": {
                 "name": "mediawiki/json-config",
                 "type": "mediawiki-extension",
-                "version": "1.41",
+                "version": "1.1.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-JsonConfig",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -201,11 +201,11 @@
             "package": {
                 "name": "mediawiki/random-pages",
                 "type": "mediawiki-extension",
-                "version": "0.6.0",
+                "version": "0.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-RandomPages",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -214,11 +214,11 @@
             "package": {
                 "name": "mediawiki/random-selection",
                 "type": "mediawiki-extension",
-                "version": "2.3.0",
+                "version": "3.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-RandomSelection",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -227,11 +227,11 @@
             "package": {
                 "name": "mediawiki/wiki-category-tag-cloud",
                 "type": "mediawiki-extension",
-                "version": "1.4.1",
+                "version": "1.3.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-WikiCategoryTagCloud",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -240,11 +240,11 @@
             "package": {
                 "name": "mediawiki/geo-data",
                 "type": "mediawiki-extension",
-                "version": "1.41",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -257,7 +257,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-HeadScript",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
@@ -266,11 +266,11 @@
             "package": {
                 "name": "mediawiki/labeled-section-transclusion",
                 "type": "mediawiki-extension",
-                "version": "1.41",
+                "version": "1.43",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-LabeledSectionTransclusion",
-                    "reference": "REL1_41"
+                    "reference": "REL1_43"
                 }
             }
         },
